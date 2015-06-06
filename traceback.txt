@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 21, in script
+    angela  "Este es mi primer año de universidad.
+Exception: Sayer 'angela' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 21, in script
+    angela  "Este es mi primer año de universidad.
+  File "/home/william/Downloads/renpy-6.99.4-sdk/renpy/ast.py", line 573, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/william/Downloads/renpy-6.99.4-sdk/renpy/ast.py", line 491, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'angela' is not defined.
+
+Linux-3.13.0-37-generic-x86_64-with-debian-jessie-sid
+Ren'Py 6.99.4.467
+MathSrory2 0.0

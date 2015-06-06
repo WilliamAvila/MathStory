@@ -1,31 +1,31 @@
-Sat Jun  6 14:04:09 2015
+Sat Jun  6 19:10:55 2015
 Linux-3.13.0-37-generic-x86_64-with-debian-jessie-sid
 Ren'Py 6.99.4.467
  
 
 Bootstrap to the start of init.init took 0.07s
-Early init took 0.02s
-Loader init took 0.01s
+Early init took 0.01s
+Loader init took 0.00s
 Loading error handling took 0.03s
-Loading script took 0.09s
-Loading persistent took 0.01s
+Loading script took 0.05s
+Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.09s
+Running init code took 0.05s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Cleaning cache took 0.04s
+Cleaning cache took 0.03s
 Making clean stores took 0.00s
-Creating interface object took 0.09s
+Creating interface object took 0.05s
 Cleaning stores took 0.00s
 Init translation took 0.01s
 Build styles took 0.00s
-Prepare screens took 0.14s
+Prepare screens took 0.15s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.01s
 
 Windowed mode.
-Screen sizes: virtual=(800, 600) physical=(800, 600)
+Screen sizes: virtual=(1920, 1080) physical=(960, 540)
 Vendor: 'Intel Open Source Technology Center'
 Renderer: 'Mesa DRI Intel(R) Sandybridge Mobile '
 Version: '3.0 Mesa 10.1.3'
@@ -230,11 +230,11 @@ Texture testing:
 - 2048px textures work.
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.008027 seconds.
-- Frame drawn at 0.010284 seconds.
-- Frame drawn at 0.017883 seconds.
-- Frame drawn at 0.036010 seconds.
-- 0.036010 seconds to render 5 frames.
+- Frame drawn at 0.011945 seconds.
+- Frame drawn at 0.020655 seconds.
+- Frame drawn at 0.022728 seconds.
+- Frame drawn at 0.030537 seconds.
+- 0.030537 seconds to render 5 frames.
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s

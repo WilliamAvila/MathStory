@@ -4,7 +4,7 @@
 ##
 ## Las líneas que empiezan con dos marcas '#' son comentarios, no debes
 ## eliminar las marcas. Las líneas que comienzan con una sola marca '#'
-## contienen código o activo. La marca '#' puede eliminarse si se quiere
+## contienen código no activo. La marca '#' puede eliminarse si se quiere
 ## utilizar esa característica.
 
 init -1 python hide:
@@ -17,8 +17,8 @@ init -1 python hide:
 
     ## Control de la anchura y altura de la pantalla.
 
-    config.screen_width = 1920
-    config.screen_height = 1080
+    config.screen_width = 800
+    config.screen_height = 600
 
     ## Título de la ventana, cuando Ren'Py se ejecuta en
     ## modo ventana.
