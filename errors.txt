@@ -2,28 +2,14 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 56: expected statement.
-    persona: "Creo que sí... disculpame."
-           ^
-
-File "game/script.rpy", line 57: expected statement.
-    persona:" No miraba por donde caminaba"
-           ^
-
-File "game/script.rpy", line 58: expected statement.
-    angie: "No hay pena, yo tampoco estaba poniendo atención."
-         ^
-
-File "game/script.rpy", line 59: expected statement.
-    angie: "¿Necesitas ayuda?"
-         ^
-
-File "game/script.rpy", line 60: expected statement.
-    persona: "Estoy bien, ya recogí mis cosas."
-           ^
-
-File "game/script.rpy", line 61: expected statement.
-    persona: "De nuevo ¡Lo siento!  y salió caminando de nuevo con velocidad"
-           ^
+File "game/script.rpy", line 109: end of line expected.
+(Perhaps you left out a ' at the end of the first line.)
+    '''label exercises:
+        #exercicesList[0]
+        menu:
+            answers[0]:
+                jump opcion1
+           
+        return'''
 
 Ren'Py Version: Ren'Py 6.99.4.467
